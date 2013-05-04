@@ -25,3 +25,5 @@ Functionalities provided are
  
  
 To build the executable, go to "src" folder. Makefile is provided. Commands are "make", "make debug" and "make clean" 
+
+File src/uselist.cpp is test module to check functionalities of linklist
