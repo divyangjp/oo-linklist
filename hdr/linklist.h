@@ -79,6 +79,7 @@ template <class T>
 linklist<T>::linklist( const linklist& obj )
 {
 	headNode_ = NULL;
+	nodeCount_ = 0;
 	int tmpcount = obj.nodeCount_;
 	Node<T>* objTmpHeadNode = obj.headNode_;
 
@@ -133,6 +134,7 @@ linklist<T>& linklist<T>::operator=( const linklist<T>& obj )
 	cout << "operator= invoked" << endl;
 #endif
 	headNode_ = NULL;
+	nodeCount_ = 0;
         int tmpcount = obj.nodeCount_;
         Node<T>* objTmpHeadNode = obj.headNode_;
 
